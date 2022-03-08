@@ -1,0 +1,11 @@
+.wrapper {
+    height: 100%;
+    overflow-y: scroll;
+    position: relative;
+    flex: 1;
+    padding-top: 10px;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
